@@ -1,0 +1,134 @@
+@media (max-width: 600px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.mydiv {
+    text-align: center;
+
+}
+
+
+h1:hover {
+    font-size: 50px;
+    height: 150px;
+    background-color: lightblue;
+    transition: all 200ms ease;
+}
+
+.column {
+    align-items: center;
+    position: relative;
+    width: 33.32%;
+    padding: right 5px;
+
+}
+
+.img1:hover {
+    transform: scale(1.2);
+    background: black;
+    z-index: 2;
+}
+
+.img2:hover {
+    transform: scale(1.2);
+    background: black;
+    z-index: 2;
+
+}
+
+.img3:hover {
+    transform: scale(1.2);
+    background: black;
+    z-index: 2;
+
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+
+.container-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-direction: row;
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+}
+
+.container-video {
+    display: grid;
+    grid-template-columns: 2fr;
+    flex-direction: row;
+    margin: auto;
+    padding-bottom: 56%;
+    position: relative;
+    height: 0%;
+}
+
+
+.column {
+    flex: 33.33% padding: 1px;
+}
+
+@media (max-width: 500px) {
+    .container-home {
+        grid-auto-flow: column;
+    }
+}
+
+/* This is a good color I actually saw it on another site and had to copy it. It really makes my page pop*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0099CC
+}
+
+
+#button {
+    text-align: center;
+    font-size: 18px;
+    font-style: bold;
+    border-radius: 5px;
+}
+
+.wizard {
+    background-color: lightblue;
+    font-size: 24px;
+    padding: 10px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    background-color: lightblue;
+    justify-content: right;
+}
+
+
+.footer {
+    clear: left;
+    border-radius: 5px;
+    padding: 10px;
+}
